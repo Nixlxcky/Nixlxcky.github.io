@@ -1,40 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nixlxcky | Developer Portfolio</title>
+  <title>Nixlxcky | Python Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      margin: 0;
-      padding: 2rem;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
       color: #333;
+      line-height: 1.6;
+      padding: 2rem;
     }
-    .container {
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #1e88e5;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    .section {
       max-width: 800px;
       margin: auto;
-      background: white;
+      margin-bottom: 3rem;
+      background: #fff;
       padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     }
-    h1 {
-      color: #007acc;
+    .section h2 {
+      color: #1e88e5;
+      margin-bottom: 1rem;
     }
     a {
-      color: #007acc;
+      color: #1e88e5;
       text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      margin-top: 3rem;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+
+  <header>
     <h1>Привет, я Nixlxcky</h1>
-    <p>Фрилансер и Python-разработчик. Специализируюсь на телеграм-ботах, парсинге данных и автоматизации.</p>
-    <p>Мои проекты: <a href="https://github.com/Nixlxcky" target="_blank">GitHub</a></p>
-    <p>Контакты: <a href="https://t.me/твой_ник" target="_blank">@твой_ник</a></p>
+    <p>Python Developer | Telegram Bots | Web Scraping</p>
+  </header>
+
+  <div class="section">
+    <h2>Обо мне</h2>
+    <p>Мне 17 лет, я фрилансер-разработчик. Специализируюсь на создании телеграм-ботов, автоматизации, парсинге данных и backend-приложениях. Постоянно развиваюсь в области ИИ и цифрового предпринимательства.</p>
   </div>
+
+  <div class="section">
+    <h2>Мои проекты</h2>
+    <ul>
+      <li><a href="https://github.com/Nixlxcky/tg-mass-message-tool" target="_blank">Массовая рассылка в Telegram</a></li>
+      <li><a href="https://github.com/Nixlxcky/tg-scraper" target="_blank">Парсер участников групп</a></li>
+      <li><a href="https://github.com/Nixlxcky/auto-joiner" target="_blank">Автодобавление в Telegram-группы</a></li>
+      <li><a href="https://github.com/Nixlxcky" target="_blank">Смотреть все на GitHub →</a></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Контакты</h2>
+    <p>Telegram: <a href="https://t.me/твой_ник" target="_blank">@твой_ник</a></p>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+  </div>
+
+  <footer>
+    &copy; 2025 Nixlxcky. Сделано с ❤️ на GitHub Pages.
+  </footer>
+
 </body>
 </html>
